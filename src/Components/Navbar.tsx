@@ -17,7 +17,7 @@ export default function Navbar() {
     ];
 
     return (
-        <nav className="fixed w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
+        <nav className="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 shadow-sm">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="flex items-center">
@@ -30,7 +30,7 @@ export default function Navbar() {
                                 className="h-10 w-auto"
                                 priority
                             />
-                            <span className="ml-3 text-xl font-semibold">PR Interior Studios</span>
+                            <span className="ml-3 text-xl font-semibold text-white">PR Interior Studios</span>
                         </Link>
                     </div>
 
@@ -41,7 +41,7 @@ export default function Navbar() {
                                 <Link
                                     key={link.href}
                                     href={link.href}
-                                    className="bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition-colors"
+                                    className="bg-white text-gray-900 px-4 py-2 rounded-full hover:bg-gray-100 transition-colors"
                                 >
                                     {link.label}
                                 </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
                                 <Link
                                     key={link.href}
                                     href={link.href}
-                                    className="text-gray-700 hover:text-gray-900"
+                                    className="text-gray-200 hover:text-white"
                                 >
                                     {link.label}
                                 </Link>
@@ -61,7 +61,7 @@ export default function Navbar() {
                     <div className="md:hidden flex items-center">
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
-                            className="text-gray-700 hover:text-gray-900"
+                            className="text-white hover:text-gray-200"
                         >
                             <svg
                                 className="h-6 w-6"
@@ -86,12 +86,12 @@ export default function Navbar() {
             {/* Mobile Navigation */}
             {isMenuOpen && (
                 <div className="md:hidden">
-                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
+                    <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-800">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className="block px-3 py-2 text-gray-700 hover:text-gray-900"
+                                className="block px-3 py-2 text-white hover:bg-gray-700 rounded-md"
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 {link.label}
