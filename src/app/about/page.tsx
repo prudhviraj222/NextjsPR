@@ -8,13 +8,13 @@ const team = [
     {
         name: "Prudhvi Raj",
         role: "Lead Designer",
-        image: "/images/teams/image.png",
+        image: "/images/teams/prudhvi.png",
         bio: "With over 15 years of experience, Prudhvi brings creativity and expertise to every project."
     },
     {
         name: "Rana",
         role: "Senior Designer",
-        image: "/images/project2/kitchne2.jpeg",
+        image: "/images/teams/ranatop1.jpeg",
         bio: "Rana specializes in modern and minimalist designs that maximize space and functionality."
     }
 ];
@@ -94,7 +94,7 @@ export default function AboutPage() {
                         transition={{ duration: 0.5 }}
                     >
                         <h2 className="text-3xl font-bold text-center mb-8">Our Story</h2>
-                        <div className="prose prose-lg mx-auto">
+                        <div className="prose prose-lg mx-auto text-gray-800"> {/* Added text color */}
                             <p>
                                 Founded in 2010, DesignStudio has been at the forefront of interior design innovation,
                                 transforming spaces and creating environments that reflect our clients&#39; unique personalities

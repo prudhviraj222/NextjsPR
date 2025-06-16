@@ -2,12 +2,16 @@
 const nextConfig = {
     output: 'export',
     images: {
-        domains: ['printeriorstudios.com'],
+        domains: ['raw.githubusercontent.com', 'github.com'],
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'printeriorstudios.com',
+                hostname: 'raw.githubusercontent.com',
             },
+            {
+                protocol: 'https',
+                hostname: 'github.com'
+            }
         ],
         dangerouslyAllowSVG: true,
         contentDispositionType: 'attachment',

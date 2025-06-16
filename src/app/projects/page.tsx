@@ -35,21 +35,21 @@ const projects = [
         id: 4,
         title: "Restaurant Renovation",
         category: "commercial",
-        image: "/project-4.jpg",
+        image: "/images/project3/white cupboards.jpeg",
         description: "Complete renovation of a fine dining restaurant"
     },
     {
         id: 5,
         title: "Loft Conversion",
         category: "renovation",
-        image: "/project-5.jpg",
+        image: "/images/project3/white cupboards.jpeg",
         description: "Industrial loft transformation into a modern home"
     },
     {
         id: 6,
         title: "Boutique Hotel",
         category: "commercial",
-        image: "/project-6.jpg",
+        image: "/images/project3/white cupboards.jpeg",
         description: "Interior design for a boutique hotel chain"
     }
 ];

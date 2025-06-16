@@ -23,7 +23,7 @@ export default function Navbar() {
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center">
                             <Image
-                                src="https://printeriorstudios.com/assets/onlylogo-C56EJIou.jpeg"
+                                src="https://github.com/iTKonnects-connectwithtechnology/MetaDataWebsites/raw/main/Projects/Help/PRInteriors/Images%20and%20logos/logo.jpeg"
                                 alt="PR INTERIOR STUDIOS"
                                 width={150}
                                 height={40}

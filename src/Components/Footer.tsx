@@ -12,7 +12,7 @@ export default function Footer() {
                     <div className="space-y-4">
                         <Link href="/" className="inline-block">
                             <Image
-                                src="https://printeriorstudios.com/assets/onlylogo-C56EJIou.jpeg"
+                                src="https://raw.githubusercontent.com/iTKonnects-connectwithtechnology/MetaDataWebsites/main/Projects/Help/PRInteriors/Images%20and%20logos/logo.jpeg"
                                 alt="PR Interior Studios"
                                 width={150}
                                 height={40}
