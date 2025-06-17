@@ -130,7 +130,14 @@ export default function Contact() {
                                         href="tel:+919618891888"
                                         className="text-gray-600 hover:text-black transition-colors"
                                     >
-                                        +91 96188 91888
+                                       Prudhvi :  +91 96188 91888 
+                                    </a>
+                                    <br />
+                                    <a
+                                        href="tel:+918885599146"
+                                        className="text-gray-600 hover:text-black transition-colors"
+                                    >
+                                       Rana : +91 88855 99146 
                                     </a>
                                 </div>
                                 <div>

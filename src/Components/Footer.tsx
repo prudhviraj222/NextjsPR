@@ -67,7 +67,13 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a href="tel:+919618891888" className="hover:text-white transition-colors">
-                                    +91 96188 91888
+                                   Prudhvi : +91 96188 91888
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="tel:+918885599146" className="hover:text-white transition-colors">
+                                    Rana : +91 88855 99146
                                 </a>
                             </li>
                             <li>
